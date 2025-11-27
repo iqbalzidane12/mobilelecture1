@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:../firebase_options.dart';
+import 'package:mobilelecture1/firebase_options.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
