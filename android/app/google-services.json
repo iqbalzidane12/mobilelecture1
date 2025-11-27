@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "275849439186",
+    "project_id": "mobile-project-dc052",
+    "storage_bucket": "mobile-project-dc052.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275849439186:android:cbbe24a7bc221ad0d84a0b",
+        "android_client_info": {
+          "package_name": "com.example.mobilelecture1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSYzG8FMUZhwNc6yPC94s7-QcMprylJes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
