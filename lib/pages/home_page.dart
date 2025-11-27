@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mobilelecture1/firebase_options.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'profile.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -16,7 +17,10 @@ class HomePage extends StatelessWidget {
         actions: [
           GestureDetector(
             onTap: () {
-              // open profile page later
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const ProfilePage()),
+              );
             },
             child: Padding(
               padding: const EdgeInsets.only(right: 16),
